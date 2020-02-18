@@ -5,6 +5,7 @@
 * [路由](route/路由.md)
 * [中间件](route/中间件.md)
 * [控制器](controller/控制器.md)
+* [视图](view/视图.md)
 * [命令行参数](config/命令行参数.md)
 * [数据库](#jump1)
     * [Mysq操作](DB/Mysq操作.md)
@@ -19,4 +20,3 @@
     * [http请求客户端](tools/http请求客户端.md)
     * [文件上传](tools/文件上传.md)
     * [发送邮件](tools/发送邮件.md)
-
