@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Orange框架',
   description: 'orange框架,简洁高效的web开发框架, Golang用户极速开发体验。',
-  base : '/orange_doc',
+  base : '/orange_doc/',
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
