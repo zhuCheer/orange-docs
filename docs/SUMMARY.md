@@ -21,6 +21,7 @@
 * [实用工具](#jump2)
     * [图片验证码](tools/图片验证码.md)
     * [简单队列](tools/简单队列.md)
+    * [消息队列](tools/消息队列.md)
     * [http请求客户端](tools/http请求客户端.md)
     * [文件上传](tools/文件上传.md)
     * [发送邮件](tools/发送邮件.md)

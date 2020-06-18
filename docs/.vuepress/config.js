@@ -54,6 +54,7 @@ module.exports = {
 			children: [
 				{ title: '图片验证码', path:'/tools/图片验证码.md'},
 				{ title: '简单队列', path:'/tools/简单队列.md'},
+				{ title: '消息队列', path:'/tools/消息队列.md'},
 				{ title: 'http请求客户端', path:'/tools/http请求客户端.md'},
 				{ title: '文件上传', path:'/tools/文件上传.md'},
 				{ title: '发送邮件', path:'/tools/发送邮件.md'}
