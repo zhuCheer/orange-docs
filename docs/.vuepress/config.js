@@ -15,7 +15,8 @@ module.exports = {
 			  hm.src = "https://hm.baidu.com/hm.js?a0c745d027acbd6848330c087669dc94";
 			  var s = document.getElementsByTagName("script")[0]; 
 			  s.parentNode.insertBefore(hm, s);
-			})();`
+			})();
+			`
     ]
   ],
   themeConfig : {
