@@ -8,6 +8,15 @@ module.exports = {
    head: [
     ['meta', {description:'orange框架,简洁高效的web开发框架, Golang用户极速开发体验。'}],
     ['link', { rel: 'icon', href: '/images/logo.jpg' }],
+	['script', {}, `
+            var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?a0c745d027acbd6848330c087669dc94";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();`
+    ]
   ],
   themeConfig : {
 	logo: '/images/logo.jpg',
