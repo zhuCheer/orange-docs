@@ -33,6 +33,7 @@ module.exports = {
 			collapsable: false,
 			children: [
 				{ title: '路由', path:'/route/路由.md'},
+				{ title: '静态资源绑定', path:'/route/静态资源绑定.md'},
 				{ title: '中间件', path:'/route/中间件.md'},
 				{ title: '控制器', path:'/controller/控制器.md'},
 				{ title: 'Session', path:'/request/Session.md'}
