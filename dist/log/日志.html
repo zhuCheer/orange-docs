@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>日志处理 | Orange框架</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/orange_doc/images/logo.jpg">
+    <script>
+            var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?a0c745d027acbd6848330c087669dc94";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
+    <meta name="description" content="orange框架,简洁高效的web开发框架, Golang用户极速开发体验。">
+    <meta description="orange框架,简洁高效的web开发框架, Golang用户极速开发体验。">
+    <link rel="preload" href="/orange_doc/assets/css/0.styles.e3f050c3.css" as="style"><link rel="preload" href="/orange_doc/assets/js/app.71586a83.js" as="script"><link rel="preload" href="/orange_doc/assets/js/2.b532f237.js" as="script"><link rel="preload" href="/orange_doc/assets/js/4.c14735c3.js" as="script"><link rel="prefetch" href="/orange_doc/assets/js/10.56ec9de9.js"><link rel="prefetch" href="/orange_doc/assets/js/11.0385215a.js"><link rel="prefetch" href="/orange_doc/assets/js/12.e6be6016.js"><link rel="prefetch" href="/orange_doc/assets/js/13.db62843c.js"><link rel="prefetch" href="/orange_doc/assets/js/14.56732a5a.js"><link rel="prefetch" href="/orange_doc/assets/js/15.43a49922.js"><link rel="prefetch" href="/orange_doc/assets/js/16.418bfbcf.js"><link rel="prefetch" href="/orange_doc/assets/js/17.fa7728a9.js"><link rel="prefetch" href="/orange_doc/assets/js/18.2d653ba0.js"><link rel="prefetch" href="/orange_doc/assets/js/19.98c39489.js"><link rel="prefetch" href="/orange_doc/assets/js/20.4355687d.js"><link rel="prefetch" href="/orange_doc/assets/js/21.5ae767fa.js"><link rel="prefetch" href="/orange_doc/assets/js/22.de51feb4.js"><link rel="prefetch" href="/orange_doc/assets/js/23.3644f94e.js"><link rel="prefetch" href="/orange_doc/assets/js/24.260a5ab3.js"><link rel="prefetch" href="/orange_doc/assets/js/25.4e6581e8.js"><link rel="prefetch" href="/orange_doc/assets/js/26.45a55571.js"><link rel="prefetch" href="/orange_doc/assets/js/27.6fe9fd03.js"><link rel="prefetch" href="/orange_doc/assets/js/28.9cdfb5b7.js"><link rel="prefetch" href="/orange_doc/assets/js/29.6305297f.js"><link rel="prefetch" href="/orange_doc/assets/js/3.d2244e53.js"><link rel="prefetch" href="/orange_doc/assets/js/30.feb25f91.js"><link rel="prefetch" href="/orange_doc/assets/js/31.f061e7eb.js"><link rel="prefetch" href="/orange_doc/assets/js/32.b07eeb24.js"><link rel="prefetch" href="/orange_doc/assets/js/5.1464e28f.js"><link rel="prefetch" href="/orange_doc/assets/js/6.aeaca043.js"><link rel="prefetch" href="/orange_doc/assets/js/7.4e7b8f2b.js"><link rel="prefetch" href="/orange_doc/assets/js/8.7efb5afc.js"><link rel="prefetch" href="/orange_doc/assets/js/9.9cebc698.js">
+    <link rel="stylesheet" href="/orange_doc/assets/css/0.styles.e3f050c3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/orange_doc/" class="home-link router-link-active"><img src="/orange_doc/images/logo.jpg" alt="Orange框架" class="logo"> <span class="site-name can-hide">Orange框架</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/orange_doc/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/orange_doc/快速开始.html" class="nav-link">
+  快速开始
+</a></div><div class="nav-item"><a href="/orange_doc/about.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://www.kancloud.cn/chase688/orange_framework" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  看云镜像
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://gitee.com/zhucheer/orange" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/orange_doc/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/orange_doc/快速开始.html" class="nav-link">
+  快速开始
+</a></div><div class="nav-item"><a href="/orange_doc/about.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://www.kancloud.cn/chase688/orange_framework" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  看云镜像
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://gitee.com/zhucheer/orange" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/orange_doc/快速开始.html" class="sidebar-link">快速开始</a></li><li><a href="/orange_doc/config/配置.html" class="sidebar-link">配置</a></li><li><a href="/orange_doc/log/日志.html" class="active sidebar-link">日志</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/orange_doc/log/日志.html#日志处理" class="sidebar-link">日志处理</a></li><li class="sidebar-sub-header"><a href="/orange_doc/log/日志.html#日志配置" class="sidebar-link">日志配置</a></li><li class="sidebar-sub-header"><a href="/orange_doc/log/日志.html#快速使用" class="sidebar-link">快速使用</a></li><li class="sidebar-sub-header"><a href="/orange_doc/log/日志.html#独立日志" class="sidebar-link">独立日志</a></li><li class="sidebar-sub-header"><a href="/orange_doc/log/日志.html#日志效果" class="sidebar-link">日志效果</a></li></ul></li><li><a href="/orange_doc/config/命令行参数.html" class="sidebar-link">命令行参数</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>请求与响应</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/route/路由.html" class="sidebar-link">路由</a></li><li><a href="/orange_doc/route/静态资源绑定.html" class="sidebar-link">静态资源绑定</a></li><li><a href="/orange_doc/route/中间件.html" class="sidebar-link">中间件</a></li><li><a href="/orange_doc/controller/控制器.html" class="sidebar-link">控制器</a></li><li><a href="/orange_doc/request/Session.html" class="sidebar-link">Session</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>数据库</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/DB/Mysq操作.html" class="sidebar-link">Mysq操作</a></li><li><a href="/orange_doc/DB/Redis操作.html" class="sidebar-link">Redis操作</a></li></ul></section></li><li><a href="/orange_doc/view.html" class="sidebar-link">视图</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>其他</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/base/项目目录.html" class="sidebar-link">项目目录</a></li><li><a href="/orange_doc/base/项目编译.html" class="sidebar-link">项目编译</a></li><li><a href="/orange_doc/base/优雅退出.html" class="sidebar-link">优雅退出</a></li><li><a href="/orange_doc/base/平滑重启.html" class="sidebar-link">平滑重启</a></li><li><a href="/orange_doc/base/pprof支持.html" class="sidebar-link">pprof支持</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>实用工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/tools/图片验证码.html" class="sidebar-link">图片验证码</a></li><li><a href="/orange_doc/tools/简单队列.html" class="sidebar-link">简单队列</a></li><li><a href="/orange_doc/tools/消息队列.html" class="sidebar-link">消息队列</a></li><li><a href="/orange_doc/tools/http请求客户端.html" class="sidebar-link">http请求客户端</a></li><li><a href="/orange_doc/tools/文件上传.html" class="sidebar-link">文件上传</a></li><li><a href="/orange_doc/tools/发送邮件.html" class="sidebar-link">发送邮件</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="日志处理"><a href="#日志处理" class="header-anchor">#</a> 日志处理</h2> <p>orange 框架中有一个专门处理日志的包，通过使用日志包进行日志处理；
+在配置文件中可以进行日志相关配置；</p> <ul><li>功能上满足绝大多数日志需求，类似zap风格输出；</li> <li>代码逻辑更加精简，性能高；
+下图是在同一台机器上进行的压测对比，可以见得 orange 框架内置日志性能要优于zap；
+<img src="/orange_doc/assets/img/11.88d4cce1.jpg" alt=""></li></ul> <h2 id="日志配置"><a href="#日志配置" class="header-anchor">#</a> 日志配置</h2> <p>配置文件中默认日志配置如下：</p> <ul><li>日志级别包含  DEBUG，INFO，NOTICE， WARNING，ERROR， CRITICAL，日志级别依次递增，当配置指定级别后，则只会输出大于等于当前级别的日志信息；</li> <li>日志类型 有两种 text 和 json 分别对应 json 日志类型和 文本日志类型；</li> <li>日志路径，这里注意填写一个目录地址，默认日志会在当前配置的目录中生成；</li> <li>日志存储支持定时同步，防止日志写入过快导致的系统开销，syncInterval的单位是<strong>毫秒</strong> syncInterval = 0 则实时同；步日志到日志文件 ，syncInterval = 500 则会将日志暂存到 buffer 中，每间隔 500ms 的时间将日志数据同步到日志文件。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>[app.logger]
+    level = &quot;INFO&quot; // 日志级别
+    type = &quot;text&quot; // 类型 
+    path = &quot;&quot; // 日志存储目录，留空则日志会输出到控制台
+    syncInterval = 500 // 日志同步时间间隔 （单位：毫秒）
+
+</code></pre></div><h2 id="快速使用"><a href="#快速使用" class="header-anchor">#</a> 快速使用</h2> <blockquote><p>日志记录方法参数和 fmt.Sprintf() 一样，第一个参数是格式化内容，可以包含 %s,%d,%v 等通配符，后面的参数则是具体需要替换的数据；
+日志默认会存储在配置的目录下，日志文件名是 default.log</p></blockquote> <p>一般在程序中我们使用如下的方式记录日志：
+格式化模式：</p> <div class="language- extra-class"><pre class="language-text"><code>logger.Info(&quot;this is a Infolog %v&quot;, info)
+logger.Error(&quot;this is a Errorlog %v&quot;, err)
+logger.Warning(&quot;this is a Warning log %v&quot;, warn)
+</code></pre></div><p>类似zap字段模式</p> <div class="language- extra-class"><pre class="language-text"><code>logger.Infow(&quot;this is a Infolog&quot;,  &quot;info&quot;, &quot;info value&quot;)
+logger.Errorw(&quot;this is a Errorlog&quot;, &quot;err&quot;, &quot;err value&quot;)
+logger.Warningw(&quot;this is a Warning log&quot;,  &quot;warn&quot;, &quot;warn value&quot;)
+</code></pre></div><h2 id="独立日志"><a href="#独立日志" class="header-anchor">#</a> 独立日志</h2> <blockquote><p>有时如果希望对指定业务进行单独的日志文件存储，可以使用 LogFile() 方法进行链式操作处理；</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>// 此方法会将日志文件记录在配置目录下的 api.log 文件中
+logger.LogFile(&quot;api&quot;).Error(&quot;error logs %d&quot;, err)
+</code></pre></div><h2 id="日志效果"><a href="#日志效果" class="header-anchor">#</a> 日志效果</h2> <p><img src="/orange_doc/assets/img/110.b3917cf2.png" alt=""></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/orange_doc/config/配置.html" class="prev">
+        配置
+      </a></span> <span class="next"><a href="/orange_doc/config/命令行参数.html">
+        命令行参数
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/orange_doc/assets/js/app.71586a83.js" defer></script><script src="/orange_doc/assets/js/2.b532f237.js" defer></script><script src="/orange_doc/assets/js/4.c14735c3.js" defer></script>
+  </body>
+</html>

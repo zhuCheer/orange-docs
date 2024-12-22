@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>视图 | Orange框架</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/orange_doc/images/logo.jpg">
+    <script>
+            var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?a0c745d027acbd6848330c087669dc94";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
+    <meta name="description" content="orange框架,简洁高效的web开发框架, Golang用户极速开发体验。">
+    <meta description="orange框架,简洁高效的web开发框架, Golang用户极速开发体验。">
+    <link rel="preload" href="/orange_doc/assets/css/0.styles.e3f050c3.css" as="style"><link rel="preload" href="/orange_doc/assets/js/app.71586a83.js" as="script"><link rel="preload" href="/orange_doc/assets/js/2.b532f237.js" as="script"><link rel="preload" href="/orange_doc/assets/js/31.f061e7eb.js" as="script"><link rel="prefetch" href="/orange_doc/assets/js/10.56ec9de9.js"><link rel="prefetch" href="/orange_doc/assets/js/11.0385215a.js"><link rel="prefetch" href="/orange_doc/assets/js/12.e6be6016.js"><link rel="prefetch" href="/orange_doc/assets/js/13.db62843c.js"><link rel="prefetch" href="/orange_doc/assets/js/14.56732a5a.js"><link rel="prefetch" href="/orange_doc/assets/js/15.43a49922.js"><link rel="prefetch" href="/orange_doc/assets/js/16.418bfbcf.js"><link rel="prefetch" href="/orange_doc/assets/js/17.fa7728a9.js"><link rel="prefetch" href="/orange_doc/assets/js/18.2d653ba0.js"><link rel="prefetch" href="/orange_doc/assets/js/19.98c39489.js"><link rel="prefetch" href="/orange_doc/assets/js/20.4355687d.js"><link rel="prefetch" href="/orange_doc/assets/js/21.5ae767fa.js"><link rel="prefetch" href="/orange_doc/assets/js/22.de51feb4.js"><link rel="prefetch" href="/orange_doc/assets/js/23.3644f94e.js"><link rel="prefetch" href="/orange_doc/assets/js/24.260a5ab3.js"><link rel="prefetch" href="/orange_doc/assets/js/25.4e6581e8.js"><link rel="prefetch" href="/orange_doc/assets/js/26.45a55571.js"><link rel="prefetch" href="/orange_doc/assets/js/27.6fe9fd03.js"><link rel="prefetch" href="/orange_doc/assets/js/28.9cdfb5b7.js"><link rel="prefetch" href="/orange_doc/assets/js/29.6305297f.js"><link rel="prefetch" href="/orange_doc/assets/js/3.d2244e53.js"><link rel="prefetch" href="/orange_doc/assets/js/30.feb25f91.js"><link rel="prefetch" href="/orange_doc/assets/js/32.b07eeb24.js"><link rel="prefetch" href="/orange_doc/assets/js/4.c14735c3.js"><link rel="prefetch" href="/orange_doc/assets/js/5.1464e28f.js"><link rel="prefetch" href="/orange_doc/assets/js/6.aeaca043.js"><link rel="prefetch" href="/orange_doc/assets/js/7.4e7b8f2b.js"><link rel="prefetch" href="/orange_doc/assets/js/8.7efb5afc.js"><link rel="prefetch" href="/orange_doc/assets/js/9.9cebc698.js">
+    <link rel="stylesheet" href="/orange_doc/assets/css/0.styles.e3f050c3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/orange_doc/" class="home-link router-link-active"><img src="/orange_doc/images/logo.jpg" alt="Orange框架" class="logo"> <span class="site-name can-hide">Orange框架</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/orange_doc/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/orange_doc/快速开始.html" class="nav-link">
+  快速开始
+</a></div><div class="nav-item"><a href="/orange_doc/about.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://www.kancloud.cn/chase688/orange_framework" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  看云镜像
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://gitee.com/zhucheer/orange" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/orange_doc/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/orange_doc/快速开始.html" class="nav-link">
+  快速开始
+</a></div><div class="nav-item"><a href="/orange_doc/about.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://www.kancloud.cn/chase688/orange_framework" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  看云镜像
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://gitee.com/zhucheer/orange" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/orange_doc/快速开始.html" class="sidebar-link">快速开始</a></li><li><a href="/orange_doc/config/配置.html" class="sidebar-link">配置</a></li><li><a href="/orange_doc/log/日志.html" class="sidebar-link">日志</a></li><li><a href="/orange_doc/config/命令行参数.html" class="sidebar-link">命令行参数</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>请求与响应</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/route/路由.html" class="sidebar-link">路由</a></li><li><a href="/orange_doc/route/静态资源绑定.html" class="sidebar-link">静态资源绑定</a></li><li><a href="/orange_doc/route/中间件.html" class="sidebar-link">中间件</a></li><li><a href="/orange_doc/controller/控制器.html" class="sidebar-link">控制器</a></li><li><a href="/orange_doc/request/Session.html" class="sidebar-link">Session</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>数据库</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/DB/Mysq操作.html" class="sidebar-link">Mysq操作</a></li><li><a href="/orange_doc/DB/Redis操作.html" class="sidebar-link">Redis操作</a></li></ul></section></li><li><a href="/orange_doc/view.html" aria-current="page" class="active sidebar-link">视图</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/orange_doc/view.html#介绍" class="sidebar-link">介绍</a></li><li class="sidebar-sub-header"><a href="/orange_doc/view.html#模版定义" class="sidebar-link">模版定义</a></li><li class="sidebar-sub-header"><a href="/orange_doc/view.html#向视图传递数据" class="sidebar-link">向视图传递数据</a></li><li class="sidebar-sub-header"><a href="/orange_doc/view.html#获取渲染内容" class="sidebar-link">获取渲染内容</a></li><li class="sidebar-sub-header"><a href="/orange_doc/view.html#模版引入" class="sidebar-link">模版引入</a></li><li class="sidebar-sub-header"><a href="/orange_doc/view.html#模版引擎" class="sidebar-link">模版引擎</a></li></ul></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>其他</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/base/项目目录.html" class="sidebar-link">项目目录</a></li><li><a href="/orange_doc/base/项目编译.html" class="sidebar-link">项目编译</a></li><li><a href="/orange_doc/base/优雅退出.html" class="sidebar-link">优雅退出</a></li><li><a href="/orange_doc/base/平滑重启.html" class="sidebar-link">平滑重启</a></li><li><a href="/orange_doc/base/pprof支持.html" class="sidebar-link">pprof支持</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>实用工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/orange_doc/tools/图片验证码.html" class="sidebar-link">图片验证码</a></li><li><a href="/orange_doc/tools/简单队列.html" class="sidebar-link">简单队列</a></li><li><a href="/orange_doc/tools/消息队列.html" class="sidebar-link">消息队列</a></li><li><a href="/orange_doc/tools/http请求客户端.html" class="sidebar-link">http请求客户端</a></li><li><a href="/orange_doc/tools/文件上传.html" class="sidebar-link">文件上传</a></li><li><a href="/orange_doc/tools/发送邮件.html" class="sidebar-link">发送邮件</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="视图"><a href="#视图" class="header-anchor">#</a> 视图</h1> <h2 id="介绍"><a href="#介绍" class="header-anchor">#</a> 介绍</h2> <p>Orange 的视图基于官方 <code>html/template</code> 和 <code>text/template</code> 包，基本用法也和官方包一致；
+控制器 app.Context 和 view 包进行交互，http 渲染输出由 app.Context 中的方法处理，具体渲染模版替换由 view 包进行处理。</p> <h2 id="模版定义"><a href="#模版定义" class="header-anchor">#</a> 模版定义</h2> <p>视图包含应用的 HTML，并且将控制器 / 应用程序逻辑与演示逻辑分开。视图文件默认存放于 <code>storage/views</code> 目录下所有<code>.tpl</code>后缀的文件中，存放目录具体配置可以在 <code>config/config/toml</code> 中进行调整。</p> <div class="language- extra-class"><pre class="language-text"><code>[app]
+...
+viewPath = &quot;./storage/views&quot;
+</code></pre></div><p>一个简单的视图如下所示：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;!-- 此视图文件位置： storage/views/hello.tpl --&gt;
+
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, {{.Name}}&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre></div><p>在控制器中通过 <code>app.Context</code> 中的 <code>ViewHtml</code> 或 <code>ViewText</code> 方法进行渲染；</p> <div class="language- extra-class"><pre class="language-text"><code>func ViewShow(c *app.Context) error {
+   showData := struct {
+      Name string
+   }{
+      Name : &quot;world!&quot;,
+   }
+   return c.ViewHtml(&quot;hello&quot;, showData)
+}
+</code></pre></div><p>当然，视图文件也可以嵌套在 storage/views 目录的子目录中。「点」符号可以用来引用嵌套视图；如果你的视图存储在 storage/views/home/index.tpl，则可以这样引用它：</p> <div class="language- extra-class"><pre class="language-text"><code>return c.ViewHtml(&quot;home.index&quot;, showData)
+</code></pre></div><h2 id="向视图传递数据"><a href="#向视图传递数据" class="header-anchor">#</a> 向视图传递数据</h2> <p>如上述例子所示，你可以使用结构体对象将数据传递到视图：</p> <div class="language- extra-class"><pre class="language-text"><code>return c.ViewHtml(&quot;home.index&quot;, showData)
+</code></pre></div><p>此方式传递数据时，作为第二个参数的数据必须是结构体类型或 map[string]interface{} 类型；</p> <h2 id="获取渲染内容"><a href="#获取渲染内容" class="header-anchor">#</a> 获取渲染内容</h2> <p>有些时候我们不想直接输出模板内容，而是希望对内容再进行一些处理后输出，可以直接调用 view 包中的方法获取模板渲染后的内容。</p> <div class="language- extra-class"><pre class="language-text"><code>import &quot;gitee.com/zhucheer/orange/view&quot;
+...
+tmpl := view.ContextTmpl(viewName).Assigns(viewData)
+htmlRes, err := tmpl.Render()
+</code></pre></div><p>该方法直接获取模版渲染后内容字符串，处理逻辑有可开发人员自行处理，更新灵活。</p> <h2 id="模版引入"><a href="#模版引入" class="header-anchor">#</a> 模版引入</h2> <p>有些时候我们在定义模版时有些部分是可以共用的，比如后台中的 header footer 部分模版可以将公共的部分拆分出来定义成一个个单独的模板文件，在需要的地方进行 include 处理；
+完成该功能需要2步：
+1.定义引入模板
+我们拆分出来的模板放到视图目录（views/），如下：
+我们定义一个公用的样式模板，放到 ./views/baseStyle.tpl 下；
+定义引入模版时需要添加 define 标记</p> <div class="language- extra-class"><pre class="language-text"><code>{{define &quot;baseStyle&quot;}}
+&lt;style&gt;
+    .redTitle{ font-size: 18px; color:#ff0000;}
+&lt;/style&gt;
+{{end}}
+</code></pre></div><p>然后我们在 控制器或中间件中将该模板进行申明：</p> <div class="language- extra-class"><pre class="language-text"><code>func ActionName(c *app.Context) error {
+    c.AddIncludeTmpl(&quot;baseStyle&quot;)
+}
+</code></pre></div><p>2.模板引入
+我们在渲染模板时，将该公用的样式引入通过如下标记：</p> <div class="language- extra-class"><pre class="language-text"><code>{{template &quot;baseStyle&quot; .}}
+</code></pre></div><h2 id="模版引擎"><a href="#模版引擎" class="header-anchor">#</a> 模版引擎</h2> <p>模板引擎基于官方包<a href="https://studygolang.com/static/pkgdoc/pkg/html_template.htm" target="_blank" rel="noopener noreferrer">html/template<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 和 <a href="https://studygolang.com/static/pkgdoc/pkg/text_template.htm" target="_blank" rel="noopener noreferrer">text/template<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 语法操作也是一样。</p> <h3 id="变量替换"><a href="#变量替换" class="header-anchor">#</a> 变量替换</h3> <div class="language- extra-class"><pre class="language-text"><code>func ViewShow(c *app.Context) error {
+   showData := struct {
+      Name string
+   }{
+      Name : &quot;world!&quot;,
+   }
+   return c.ViewHtml(&quot;hello&quot;, showData)
+}
+
+
+...
+视图文件：
+
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, {{.Name}}&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p>视图文件中的 <code>{{</code>.Name<code>}}</code> 将会替换成 <code>world!</code></p> <h3 id="系统变量"><a href="#系统变量" class="header-anchor">#</a> 系统变量</h3> <p>目前包如下系统变量：</p> <p><code>{{</code>.CSRF_TOKEN<code>}}</code> 表单提交 csrf_token 数据
+<code>{{</code>.REQUEST_REFERER<code>}}</code> 页面请求来源数据</p> <h3 id="原样输出"><a href="#原样输出" class="header-anchor">#</a> 原样输出</h3> <p><code>ViewHtml</code> 方法会对变量中的 html 内容进行转义防止 js 注入等安全问题，如果我们在确保安全的情况下希望原样输出 html 内容，可以使用模版内置函数进行处理；</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, `{{`.Name | unescaped}}&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><h3 id="模板注释"><a href="#模板注释" class="header-anchor">#</a> 模板注释</h3> <div class="language- extra-class"><pre class="language-text"><code>{{/* a comment */}}
+注释，执行时会忽略，可以多行；注释不能嵌套，并且必须紧贴分界符始止，就像这里表示的一样。
+</code></pre></div><h3 id="if-条件判断"><a href="#if-条件判断" class="header-anchor">#</a> if 条件判断</h3> <p>最简单的bool类型和字符串类型的判断</p> <div class="language- extra-class"><pre class="language-text"><code>{{if .condition}}  
+{{end}}  
+</code></pre></div><p>当.condition为bool类型的时候，则为true表示执行，当.condition为string类型的时候，则非空表示执行。</p> <p><strong>else if嵌套用法</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if .condition1}}  
+{{else if .contition2}}  
+{{end}}
+</code></pre></div><p><strong>eq 等于</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if eq .var1 .var2}}  
+{{end}}
+</code></pre></div><p><strong>ne 不等于</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if ne .var1 .var2}}  
+{{end}}
+</code></pre></div><p><strong>lt 小于 (less than)</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if lt .var1 .var2}}  
+{{end}}
+</code></pre></div><p><strong>le 小于等于</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if le .var1 .var2}}  
+{{end}}
+</code></pre></div><p><strong>gt 大于</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if gt .var1 .var2}}  
+{{end}}
+</code></pre></div><p><strong>ge 大于等于</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{{if ge .var1 .var2}}  
+{{end}}
+</code></pre></div><h3 id="循环遍历"><a href="#循环遍历" class="header-anchor">#</a> 循环遍历</h3> <p>template 还支持 range 循环来遍历 map、slice 内的内容，在模板内定义变量需要加上<code>$</code>符号
+语法为：</p> <div class="language- extra-class"><pre class="language-text"><code>{{range $i,$v := .slice}}  
+{{end}}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>showData := struct {
+   ItemArr  []int
+}{
+   ItemArr:  []int{1, 2, 3, 4, 5},
+}
+return c.ViewHtml(&quot;home.index&quot;, showData)
+...
+&lt;ul&gt;
+{{range $i, $v: = .ItemArr}}
+&lt;li&gt;list item {{$i}}=&gt;{{$v}}&lt;/li&gt;
+{{end}}
+&lt;/ul&gt;
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/orange_doc/DB/Redis操作.html" class="prev">
+        Redis操作
+      </a></span> <span class="next"><a href="/orange_doc/base/项目目录.html">
+        项目目录
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/orange_doc/assets/js/app.71586a83.js" defer></script><script src="/orange_doc/assets/js/2.b532f237.js" defer></script><script src="/orange_doc/assets/js/31.f061e7eb.js" defer></script>
+  </body>
+</html>
